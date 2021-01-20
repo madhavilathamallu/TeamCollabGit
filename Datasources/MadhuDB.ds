@@ -1,0 +1,39 @@
+{
+    "webServiceContent": [
+        {"content": "{\"modifiedOn\":\"2021-01-20 16:31:11.85\",\"methodProperties\":{\"operation\":\"INSERT\",\"columns\":[{\"name\":\"ApplicantAge\",\"nullable\":false,\"type\":\"NUMERIC\",\"autoIncrement\":false},{\"name\":\"MedicalHistory\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"ApplicantRiskRating\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"uniqueHitPolicy\",\"selected\":false}},\"name\":\"insertUniqueHitPolicy\",\"datasourceId\":\"860b0dfb-2fa5-4a25-b027-6fd8e2649c51\",\"id\":\"f4f9f1b8-d0a1-491c-b571-3423ffb8da7b\",\"functionMeta\":{\"name\":\"insertUniqueHitPolicy\",\"functionUrl\":\"/insertUniqueHitPolicy\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"POST\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"ApplicantAge\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"MedicalHistory\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"ApplicantRiskRating\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"MadhuDB\",\"createdOn\":\"2021-01-20 16:31:11.85\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-20 16:31:12.012\",\"methodProperties\":{\"operation\":\"SELECT\",\"columns\":[{\"name\":\"ApplicantAge\",\"nullable\":false,\"type\":\"NUMERIC\",\"autoIncrement\":false},{\"name\":\"MedicalHistory\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"ApplicantRiskRating\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"uniqueHitPolicy\",\"selected\":false}},\"name\":\"selectAllUniqueHitPolicy\",\"datasourceId\":\"860b0dfb-2fa5-4a25-b027-6fd8e2649c51\",\"id\":\"50d2954e-d65b-4091-b15b-d14e463793f4\",\"functionMeta\":{\"name\":\"selectAllUniqueHitPolicy\",\"functionUrl\":\"/selectAllUniqueHitPolicy\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"MadhuDB\",\"createdOn\":\"2021-01-20 16:31:12.012\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-20 16:31:12.086\",\"methodProperties\":{\"filters\":[],\"operation\":\"UPDATE\",\"columns\":[{\"name\":\"ApplicantAge\",\"nullable\":false,\"type\":\"NUMERIC\",\"autoIncrement\":false},{\"name\":\"MedicalHistory\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"ApplicantRiskRating\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"uniqueHitPolicy\",\"selected\":false}},\"name\":\"updateUniqueHitPolicy\",\"datasourceId\":\"860b0dfb-2fa5-4a25-b027-6fd8e2649c51\",\"id\":\"d9244d70-9c86-40ce-8bff-892a54e9a9a5\",\"functionMeta\":{\"name\":\"updateUniqueHitPolicy\",\"functionUrl\":\"/updateUniqueHitPolicy\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"PUT\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"ApplicantAge\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"MedicalHistory\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"ApplicantRiskRating\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"MadhuDB\",\"createdOn\":\"2021-01-20 16:31:12.086\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-20 16:31:12.153\",\"methodProperties\":{\"operation\":\"DELETE\",\"table\":{\"schema\":\"public\",\"name\":\"uniqueHitPolicy\",\"selected\":false},\"filters\":[]},\"name\":\"deleteUniqueHitPolicy\",\"datasourceId\":\"860b0dfb-2fa5-4a25-b027-6fd8e2649c51\",\"id\":\"4a3198d8-fb7e-418a-b4e2-cde0dc97962b\",\"functionMeta\":{\"name\":\"deleteUniqueHitPolicy\",\"functionUrl\":\"/deleteUniqueHitPolicy\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"DELETE\",\"body\":[],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"MadhuDB\",\"createdOn\":\"2021-01-20 16:31:12.153\"}"},
+        {"content": "{\"modifiedOn\":\"2021-01-20 16:31:12.221\",\"methodProperties\":{\"filters\":[],\"operation\":\"SELECT\",\"columns\":[{\"name\":\"ApplicantAge\",\"nullable\":false,\"type\":\"NUMERIC\",\"autoIncrement\":false},{\"name\":\"MedicalHistory\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"ApplicantRiskRating\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"uniqueHitPolicy\",\"selected\":false}},\"name\":\"selectUniqueHitPolicy\",\"datasourceId\":\"860b0dfb-2fa5-4a25-b027-6fd8e2649c51\",\"id\":\"ff4ba0d8-3dd3-49e6-9bb0-c60d46feddec\",\"functionMeta\":{\"name\":\"selectUniqueHitPolicy\",\"functionUrl\":\"/selectUniqueHitPolicy\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"MadhuDB\",\"createdOn\":\"2021-01-20 16:31:12.221\"}"}
+    ],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\TeamCollabGit\\Datasources\\MadhuDB.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-01-20 16:31:03.258",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "p@ssW0rd",
+            "databaseName": "MadhuDB",
+            "jdbcString": "jdbc:postgresql://localhost:5432/MadhuDB",
+            "vendor": "PostgreSQL",
+            "poolSize": 3,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "860b0dfb-2fa5-4a25-b027-6fd8e2649c51",
+            "active": 1,
+            "id": "c814fcd6-0a6b-4d03-a517-17f7b8919b47",
+            "username": "postgres"
+        },
+        "name": "MadhuDB",
+        "id": "860b0dfb-2fa5-4a25-b027-6fd8e2649c51",
+        "applicationId": "78a33f58-9783-438b-b553-6a0616482217",
+        "createdOn": "2021-01-20 16:31:03.258"
+    }
+}
